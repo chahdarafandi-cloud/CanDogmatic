@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Can Dogmatic - Mitjà Digital Islàmic",
+    "description": "Can Dogmatic - Notícies, opinions i anàlisis per als musulmans d'arreu del món, amb especial atenció als països de parla espanyola, catalana i europea.",
+    "keywords": "islam, musulmans, notícies islàmiques, diàleg interreligiós, anàlisi, opinió, comunitat musulmana"
+  },
+  "presentation": {
+    "message": "Som principalment un lloc web basat en notícies, opinions i anàlisis que se centra en els musulmans d'arreu del món i, en particular, en els països de parla espanyola, catalana i europea, però que també atén el món islàmic en general. Ens mantindrem independents i professionals, centrats en l'actualitat, el diàleg interreligiós i els dubtes moderns."
+  },
+  "warning": {
+    "message": "Tots els nostres afiliats s'oposen a la violència i a qualsevol activitat il·legal. Qualsevol persona que suggereixi o promogui la violència o activitats il·legals als comentaris serà expulsada permanentment."
+  },
+  "nav": {
+    "home": "Inici",
+    "about": "Sobre nosaltres",
+    "team": "Equip",
+    "values": "Els nostres valors",
+    "blog": "Notícies",
+    "events": "Esdeveniments",
+    "books": "Llibres",
+    "videos": "Vídeos",
+    "press": "Premsa",
+    "faq": "FAQ",
+    "partners": "Col·laboradors",
+    "downloads": "Recursos",
+    "forum": "Comunitat",
+    "donate": "Donar",
+    "contact": "Contacte",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Can Dogmatic",
+    "subtitle": "Mitjà Digital Islàmic",
+    "description": "Notícies, opinions i anàlisis per a la comunitat musulmana global",
+    "cta_primary": "Llegeix les últimes notícies",
+    "cta_secondary": "Descobreix més"
+  },
+  "about": {
+    "title": "La nostra Missió",
+    "content": [
+      "Can Dogmatic neix amb la vocació de servir com a pont de comunicació i comprensió per a la comunitat musulmana contemporània.",
+      "Creiem en el diàleg constructiu, l'anàlisi rigorosa i la informació verac com a eixos fonamentals per a una societat més inclusiva."
+    ],
+    "stats": {
+      "articles": "Articles publicats",
+      "readers": "Lectors mensuals",
+      "countries": "Països assolits"
+    }
+  },
+  "team": {
+    "title": "El nostre Equip",
+    "members": [
+      {
+        "name": "Ahmed Al-Mansour",
+        "role": "Director Editorial",
+        "bio": "Expert en estudis islàmics i periodisme digital amb més de 15 anys d'experiència."
+      },
+      {
+        "name": "Fatima Benali",
+        "role": "Editora en Cap",
+        "bio": "Especialista en diàleg interreligiós i estudis de gènere en l'islam."
+      },
+      {
+        "name": "Youssef Qureshi",
+        "role": "Analista Internacional",
+        "bio": "Analista especialitzat en afers del món islàmic i relacions internacionals."
+      }
+    ]
+  },
+  "values": {
+    "title": "Els nostres Principis",
+    "items": [
+      {
+        "title": "🎯 Independència",
+        "description": "Mantenim la nostra independència editorial i integritat professional en totes les nostres publicacions."
+      },
+      {
+        "title": "🤝 Diàleg",
+        "description": "Promovem el diàleg interreligiós i intercultural com a eina per a la comprensió mútua."
+      },
+      {
+        "title": "⚡ Actualitat",
+        "description": "Ens centrem en les qüestions contemporànies i els desafiaments moderns que afecten la comunitat musulmana."
+      },
+      {
+        "title": "🌐 Globalitat",
+        "description": "Cobrim les notícies i anàlisis des d'una perspectiva global, amb atenció especial als països de parla espanyola i catalana."
+      }
+    ]
+  },
+  "donation": {
+    "title": "Necessitem el teu suport",
+    "subtitle": "Confiem en Allah i després en persones com tu",
+    "description": "Suporta'ns amb el que puguis",
+    "form": {
+      "full_name": "Nom complet*",
+      "first_last": "Nom Cognoms",
+      "email": "Email*",
+      "enter_email": "Introdueix el teu email",
+      "confirm_email": "Confirma l'email",
+      "gender": "Gènere*",
+      "male": "Home",
+      "female": "Dona",
+      "mailing_list": "Afegeix-me a la llista de correu",
+      "donation_amount": "Quantitat de la donació*",
+      "amount_placeholder": "Si us plau, introdueix la quantitat que desitges donar",
+      "processing_fee": "Vols cobrir la comissió de processament?*",
+      "yes": "Sí",
+      "no": "No",
+      "payment_method": "Mètode de pagament*",
+      "stripe": "Stripe (Targeta de crèdit)",
+      "paypal": "PayPal",
+      "message": "Missatge per a l'equip de Can Dogmatic",
+      "message_placeholder": "0 de 300 caràcters màxim",
+      "consent": "Consentiment*",
+      "privacy_agree": "He llegit i accepto la Política de Privadesa i els Termes d'Ús.*",
+      "privacy_note": "Respectem la teva privadesa i ens comprometem a tractar les teves dades personals amb el màxim cura i integritat. Si decideixes augmentar, canviar o cancel·lar una donació mensual recurrent, si us plau envia'ns un email a admin[at]candogmatic.com. Permet-nos uns dies per respondre. Gràcies!"
+    },
+    "button": "Fer la donació",
+    "validation": {
+      "email_mismatch": "Les adresses email no coincideixen",
+      "invalid_amount": "Si us plau, introdueix una quantitat vàlida"
+    },
+    "success": "Gràcies per la teva donació! Redireccionant al sistema de pagament...",
+    "info": {
+      "impact_title": "El teu suport fa la diferència",
+      "impact_text": "Cada donació ens ajuda a mantenir la nostra independència editorial i a produir contingut de qualitat per a la comunitat musulmana.",
+      "transparency_title": "Transparència total",
+      "transparency_text": "Ens comprometem a utilitzar els fons de manera responsable i a informar regularment sobre la nostra gestió.",
+      "community_title": "Per a la comunitat",
+      "community_text": "El teu suport contribueix a fortalecer les veus musulmanes i promoure el diàleg interreligiós."
+    }
+  },
+  "newsletter": {
+    "title": "Butlletí Informatiu",
+    "description": "Subscriviu-vos al nostre butlletí per rebre les últimes notícies i anàlisis.",
+    "placeholder": "El vostre email",
+    "subscribe": "Subscriure's",
+    "success": "Gràcies per subscriure't! Rebràs les nostres actualitzacions.",
+    "footer": "Resteu informat de les nostres actualitats"
+  },
+  "contact": {
+    "title": "Contacteu-nos",
+    "subtitle": "Teniu alguna notícia o voleu col·laborar? Escriviu-nos!",
+    "form": {
+      "name": "El vostre nom",
+      "email": "El vostre correu electrònic",
+      "subject": "Assumpte",
+      "message": "El vostre missatge...",
+      "submit": "Enviar missatge"
+    },
+    "info": {
+      "title": "Informació de contacte",
+      "email": "📧 Email:",
+      "phone": "📞 Telèfon:",
+      "address": "📍 Adreça:"
+    },
+    "success": "Missatge enviat correctament. Et respondrem aviat."
+  },
+  "cookies": {
+    "message": "🍪 Utilitzem cookies per millorar la vostra experiència. En continuar, accepteu la nostra",
+    "policy": "política de cookies",
+    "accept": "Acceptar",
+    "reject": "Rebutjar",
+    "learn_more": "Més informació"
+  },
+  "footer": {
+    "description": "Mitjà digital independent per a la comunitat musulmana global",
+    "navigation": "Navegació",
+    "legal": "Legal",
+    "legal_mentions": "Avís legal",
+    "privacy_policy": "Política de privacitat",
+    "cookie_policy": "Política de cookies",
+    "terms": "Termes i condicions",
+    "rights": "Tots els drets reservats"
+  }
+}
