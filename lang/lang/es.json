@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Can Dogmatic - Medio Digital Islámico",
+    "description": "Can Dogmatic - Noticias, opiniones y análisis para musulmanes de todo el mundo, con especial atención a los países de habla española, catalana y europea.",
+    "keywords": "islam, musulmanes, noticias islámicas, diálogo interreligioso, análisis, opinión, comunidad musulmana"
+  },
+  "presentation": {
+    "message": "Somos principalmente un sitio web basado en noticias, opiniones y análisis que se centra en los musulmanes de todo el mundo y, en particular, en los países de habla española, catalana y europea, pero que también atiende al mundo islámico en general. Mantendremos nuestra independencia y profesionalidad, centrándonos en la actualidad, el diálogo interreligioso y las dudas modernas."
+  },
+  "warning": {
+    "message": "Todos nuestros afiliados se oponen a la violencia y a cualquier actividad ilegal. Cualquier persona que sugiera o promueva la violencia o actividades ilegales en los comentarios será expulsada permanentemente."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "team": "Equipo",
+    "values": "Nuestros valores",
+    "blog": "Noticias",
+    "events": "Eventos",
+    "books": "Libros",
+    "videos": "Vídeos",
+    "press": "Prensa",
+    "faq": "Preguntas Frecuentes",
+    "partners": "Colaboradores",
+    "downloads": "Recursos",
+    "forum": "Comunidad",
+    "donate": "Donar",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Can Dogmatic",
+    "subtitle": "Medio Digital Islámico",
+    "description": "Noticias, opiniones y análisis para la comunidad musulmana global",
+    "cta_primary": "Lee las últimas noticias",
+    "cta_secondary": "Descubre más"
+  },
+  "about": {
+    "title": "Nuestra Misión",
+    "content": [
+      "Can Dogmatic nace con la vocación de servir como puente de comunicación y comprensión para la comunidad musulmana contemporánea.",
+      "Creemos en el diálogo constructivo, el análisis riguroso y la información veraz como ejes fundamentales para una sociedad más inclusiva."
+    ],
+    "stats": {
+      "articles": "Artículos publicados",
+      "readers": "Lectores mensuales",
+      "countries": "Países alcanzados"
+    }
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "members": [
+      {
+        "name": "Ahmed Al-Mansour",
+        "role": "Director Editorial",
+        "bio": "Experto en estudios islámicos y periodismo digital con más de 15 años de experiencia."
+      },
+      {
+        "name": "Fátima Benali",
+        "role": "Editora en Jefe",
+        "bio": "Especialista en diálogo interreligioso y estudios de género en el islam."
+      },
+      {
+        "name": "Youssef Qureshi",
+        "role": "Analista Internacional",
+        "bio": "Analista especializado en asuntos del mundo islámico y relaciones internacionales."
+      }
+    ]
+  },
+  "values": {
+    "title": "Nuestros Principios",
+    "items": [
+      {
+        "title": "🎯 Independencia",
+        "description": "Mantenemos nuestra independencia editorial e integridad profesional en todas nuestras publicaciones."
+      },
+      {
+        "title": "🤝 Diálogo",
+        "description": "Promovemos el diálogo interreligioso e intercultural como herramienta para la comprensión mutua."
+      },
+      {
+        "title": "⚡ Actualidad",
+        "description": "Nos centramos en las cuestiones contemporáneas y los desafíos modernos que afectan a la comunidad musulmana."
+      },
+      {
+        "title": "🌐 Globalidad",
+        "description": "Cubrimos las noticias y análisis desde una perspectiva global, con atención especial a los países de habla española y catalana."
+      }
+    ]
+  },
+  "donation": {
+    "title": "Necesitamos tu apoyo",
+    "subtitle": "Confiamos en Allah y luego en personas como tú",
+    "description": "Apóyanos con lo que puedas",
+    "form": {
+      "full_name": "Nombre completo*",
+      "first_last": "Nombre Apellidos",
+      "email": "Email*",
+      "enter_email": "Introduce tu email",
+      "confirm_email": "Confirma el email",
+      "gender": "Género*",
+      "male": "Hombre",
+      "female": "Mujer",
+      "mailing_list": "Añádeme a la lista de correo",
+      "donation_amount": "Cantidad de la donación*",
+      "amount_placeholder": "Por favor, introduce la cantidad que deseas donar",
+      "processing_fee": "¿Quieres cubrir la comisión de procesamiento?*",
+      "yes": "Sí",
+      "no": "No",
+      "payment_method": "Método de pago*",
+      "stripe": "Stripe (Tarjeta de crédito)",
+      "paypal": "PayPal",
+      "message": "Mensaje para el equipo de Can Dogmatic",
+      "message_placeholder": "0 de 300 caracteres máximo",
+      "consent": "Consentimiento*",
+      "privacy_agree": "He leído y acepto la Política de Privacidad y los Términos de Uso.*",
+      "privacy_note": "Respetamos tu privacidad y nos comprometemos a tratar tus datos personales con el máximo cuidado e integridad. Si decides aumentar, cambiar o cancelar una donación mensual recurrente, por favor envíanos un email a admin[at]candogmatic.com. Permítenos unos días para responder. ¡Gracias!"
+    },
+    "button": "Hacer la donación",
+    "validation": {
+      "email_mismatch": "Las direcciones de email no coinciden",
+      "invalid_amount": "Por favor, introduce una cantidad válida"
+    },
+    "success": "¡Gracias por tu donación! Redirigiendo al sistema de pago...",
+    "info": {
+      "impact_title": "Tu apoyo hace la diferencia",
+      "impact_text": "Cada donación nos ayuda a mantener nuestra independencia editorial y a producir contenido de calidad para la comunidad musulmana.",
+      "transparency_title": "Transparencia total",
+      "transparency_text": "Nos comprometemos a utilizar los fondos de manera responsable y a informar regularmente sobre nuestra gestión.",
+      "community_title": "Para la comunidad",
+      "community_text": "Tu apoyo contribuye a fortalecer las voces musulmanas y promover el diálogo interreligioso."
+    }
+  },
+  "newsletter": {
+    "title": "Boletín Informativo",
+    "description": "Suscríbete a nuestro boletín para recibir las últimas noticias y análisis.",
+    "placeholder": "Tu email",
+    "subscribe": "Suscribirse",
+    "success": "¡Gracias por suscribirte! Recibirás nuestras actualizaciones.",
+    "footer": "Mantente informado de nuestras actualidades"
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "¿Tienes alguna noticia o quieres colaborar? ¡Escríbenos!",
+    "form": {
+      "name": "Tu nombre",
+      "email": "Tu correo electrónico",
+      "subject": "Asunto",
+      "message": "Tu mensaje...",
+      "submit": "Enviar mensaje"
+    },
+    "info": {
+      "title": "Información de contacto",
+      "email": "📧 Email:",
+      "phone": "📞 Teléfono:",
+      "address": "📍 Dirección:"
+    },
+    "success": "Mensaje enviado correctamente. Te responderemos pronto."
+  },
+  "cookies": {
+    "message": "🍪 Utilizamos cookies para mejorar tu experiencia. Al continuar, aceptas nuestra",
+    "policy": "política de cookies",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "learn_more": "Más información"
+  },
+  "footer": {
+    "description": "Medio digital independiente para la comunidad musulmana global",
+    "navigation": "Navegación",
+    "legal": "Legal",
+    "legal_mentions": "Aviso legal",
+    "privacy_policy": "Política de privacidad",
+    "cookie_policy": "Política de cookies",
+    "terms": "Términos y condiciones",
+    "rights": "Todos los derechos reservados"
+  }
+}
