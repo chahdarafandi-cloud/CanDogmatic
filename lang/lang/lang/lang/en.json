@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Can Dogmatic - Islamic Digital Media",
+    "description": "Can Dogmatic - News, opinions and analysis for Muslims worldwide, with special focus on Spanish, Catalan and European speaking countries.",
+    "keywords": "islam, muslims, islamic news, interfaith dialogue, analysis, opinion, muslim community"
+  },
+  "presentation": {
+    "message": "We are primarily a website based on news, opinions and analysis that focuses on Muslims around the world and, in particular, in Spanish, Catalan and European speaking countries, but also serving the Islamic world in general. We will remain independent and professional, focused on current affairs, interfaith dialogue and modern doubts."
+  },
+  "warning": {
+    "message": "All our affiliates are opposed to violence and all illegal activity. Anyone suggesting or promoting violence or illegal activity in the comments will be permanently banned."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "values": "Our Values",
+    "blog": "News",
+    "events": "Events",
+    "books": "Books",
+    "videos": "Videos",
+    "press": "Press",
+    "faq": "FAQ",
+    "partners": "Partners",
+    "downloads": "Resources",
+    "forum": "Community",
+    "donate": "Donate",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Can Dogmatic",
+    "subtitle": "Islamic Digital Media",
+    "description": "News, opinions and analysis for the global Muslim community",
+    "cta_primary": "Read latest news",
+    "cta_secondary": "Discover more"
+  },
+  "about": {
+    "title": "Our Mission",
+    "content": [
+      "Can Dogmatic was founded in 2020 with a simple vision: to make digital excellence accessible to all businesses.",
+      "Our journey began with a small team of passionate people and has grown to become a reference in the field of innovative digital solutions."
+    ],
+    "stats": {
+      "articles": "Articles published",
+      "readers": "Monthly readers",
+      "countries": "Countries reached"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "members": [
+      {
+        "name": "Ahmed Al-Mansour",
+        "role": "Editorial Director",
+        "bio": "Expert in Islamic studies and digital journalism with over 15 years of experience."
+      },
+      {
+        "name": "Fatima Benali",
+        "role": "Editor in Chief",
+        "bio": "Specialist in interfaith dialogue and gender studies in Islam."
+      },
+      {
+        "name": "Youssef Qureshi",
+        "role": "International Analyst",
+        "bio": "Analyst specialized in Islamic world affairs and international relations."
+      }
+    ]
+  },
+  "values": {
+    "title": "Our Principles",
+    "items": [
+      {
+        "title": "🎯 Independence",
+        "description": "We maintain our editorial independence and professional integrity in all our publications."
+      },
+      {
+        "title": "🤝 Dialogue",
+        "description": "We promote interfaith and intercultural dialogue as a tool for mutual understanding."
+      },
+      {
+        "title": "⚡ Current Affairs",
+        "description": "We focus on contemporary issues and modern challenges affecting the Muslim community."
+      },
+      {
+        "title": "🌐 Globality",
+        "description": "We cover news and analysis from a global perspective, with special attention to Spanish and Catalan speaking countries."
+      }
+    ]
+  },
+  "donation": {
+    "title": "Needs your support",
+    "subtitle": "We rely on Allah and then individuals like you",
+    "description": "Support us with as little as you can",
+    "form": {
+      "full_name": "Full Name*",
+      "first_last": "First Last",
+      "email": "Email*",
+      "enter_email": "Enter Email",
+      "confirm_email": "Confirm Email",
+      "gender": "Gender*",
+      "male": "Male",
+      "female": "Female",
+      "mailing_list": "Add me to mailing list",
+      "donation_amount": "Donation Amount*",
+      "amount_placeholder": "Please enter your desired gift amount",
+      "processing_fee": "Do you want to cover the processing fee?*",
+      "yes": "Yes",
+      "no": "No",
+      "payment_method": "Payment Method*",
+      "stripe": "Stripe (Credit Card)",
+      "paypal": "PayPal",
+      "message": "Message to Can Dogmatic Team",
+      "message_placeholder": "0 of 300 max characters",
+      "consent": "Consent*",
+      "privacy_agree": "I have read and agree to the Privacy Policy and Terms of Use.*",
+      "privacy_note": "We respect your privacy and vow to treat your personal details with utmost care and integrity. If you decide to increase, change, or cancel a recurring monthly donation, please email us at admin[at]candogmatic.com. Please allow us a few days to respond. Thank you!"
+    },
+    "button": "Make Donation",
+    "validation": {
+      "email_mismatch": "Email addresses do not match",
+      "invalid_amount": "Please enter a valid amount"
+    },
+    "success": "Thank you for your donation! Redirecting to payment system...",
+    "info": {
+      "impact_title": "Your support makes the difference",
+      "impact_text": "Every donation helps us maintain our editorial independence and produce quality content for the Muslim community.",
+      "transparency_title": "Total transparency",
+      "transparency_text": "We commit to using funds responsibly and regularly reporting on our management.",
+      "community_title": "For the community",
+      "community_text": "Your support helps strengthen Muslim voices and promote interfaith dialogue."
+    }
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "description": "Subscribe to our newsletter to receive the latest news and analysis.",
+    "placeholder": "Your email",
+    "subscribe": "Subscribe",
+    "success": "Thank you for subscribing! You will receive our updates.",
+    "footer": "Stay informed of our news"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have news or want to collaborate? Write to us!",
+    "form": {
+      "name": "Your name",
+      "email": "Your email address",
+      "subject": "Subject",
+      "message": "Your message...",
+      "submit": "Send message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "📧 Email:",
+      "phone": "📞 Phone:",
+      "address": "📍 Address:"
+    },
+    "success": "Message sent successfully. We will reply to you soon."
+  },
+  "cookies": {
+    "message": "🍪 We use cookies to improve your experience. By continuing, you accept our",
+    "policy": "cookie policy",
+    "accept": "Accept",
+    "reject": "Reject",
+    "learn_more": "Learn more"
+  },
+  "footer": {
+    "description": "Independent digital media for the global Muslim community",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "legal_mentions": "Legal notice",
+    "privacy_policy": "Privacy policy",
+    "cookie_policy": "Cookie policy",
+    "terms": "Terms and conditions",
+    "rights": "All rights reserved"
+  }
+}
