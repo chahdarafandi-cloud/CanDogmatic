@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can Dogmatic - Mitjà Digital Islàmic</title>
+    <meta name="description" content="Can Dogmatic - Notícies, opinions i anàlisis per als musulmans d'arreu del món, amb especial atenció als països de parla espanyola, catalana i europea.">
+    <meta name="keywords" content="islam, musulmans, notícies islàmiques, diàleg interreligiós, anàlisi, opinió, comunitat musulmana">
+    <meta name="author" content="Can Dogmatic">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.candogmatic.com/">
+    <meta property="og:title" content="Can Dogmatic - Mitjà Digital Islàmic">
+    <meta property="og:description" content="Notícies, opinions i anàlisis per a la comunitat musulmana global">
+    <meta property="og:image" content="https://www.candogmatic.com/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.candogmatic.com/">
+    <meta property="twitter:title" content="Can Dogmatic - Mitjà Digital Islàmic">
+    <meta property="twitter:description" content="Notícies, opinions i anàlisis per a la comunitat musulmana global">
+    <meta property="twitter:image" content="https://www.candogmatic.com/assets/images/og-image.jpg">
+    
+    <!-- Langue alternatives -->
+    <link rel="alternate" hreflang="ca" href="https://www.candogmatic.com/ca/" />
+    <link rel="alternate" hreflang="es" href="https://www.candogmatic.com/es/" />
+    <link rel="alternate" hreflang="fr" href="https://www.candogmatic.com/fr/" />
+    <link rel="alternate" hreflang="en" href="https://www.candogmatic.com/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.candogmatic.com/" />
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+</head>
+<body>
+    <!-- Cookie Banner -->
+    <div id="cookieBanner" class="cookie-banner">
+        <div class="cookie-content">
+            <p data-i18n="cookies.message">🍪 Utilitzem cookies per millorar la vostra experiència. En continuar, accepteu la nostra <a href="#politica-cookies" data-i18n="cookies.policy">política de cookies</a>.</p>
+            <div class="cookie-buttons">
+                <button id="acceptCookies" class="cookie-btn accept" data-i18n="cookies.accept">Acceptar</button>
+                <button id="rejectCookies" class="cookie-btn reject" data-i18n="cookies.reject">Rebutjar</button>
+                <a href="#politica-cookies" class="cookie-link" data-i18n="cookies.learn_more">Més informació</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#inici" data-i18n="nav.home">Can Dogmatic</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#inici" class="nav-link" data-i18n="nav.home">Inici</a>
+                <a href="#sobre-nosaltres" class="nav-link" data-i18n="nav.about">Sobre nosaltres</a>
+                <a href="#equip" class="nav-link" data-i18n="nav.team">Equip</a>
+                <a href="#valors" class="nav-link" data-i18n="nav.values">Els nostres valors</a>
+                <a href="#noticies" class="nav-link" data-i18n="nav.blog">Notícies</a>
+                <a href="#esdeveniments" class="nav-link" data-i18n="nav.events">Esdeveniments</a>
+                <a href="#llibres" class="nav-link" data-i18n="nav.books">Llibres</a>
+                <a href="#videos" class="nav-link" data-i18n="nav.videos">Vídeos</a>
+                <a href="#premsa" class="nav-link" data-i18n="nav.press">Premsa</a>
+                <a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a>
+                <a href="#colaboradors" class="nav-link" data-i18n="nav.partners">Col·laboradors</a>
+                <a href="#recursos" class="nav-link" data-i18n="nav.downloads">Recursos</a>
+                <a href="#comunitat" class="nav-link" data-i18n="nav.forum">Comunitat</a>
+                <a href="#donar" class="nav-link" data-i18n="nav.donate">Donar</a>
+                <a href="#contacte" class="nav-link" data-i18n="nav.contact">Contacte</a>
+            </div>
+            <div class="nav-actions">
+                <div class="language-switcher">
+                    <button class="language-btn" id="languageToggle">
+                        <span class="current-lang">CA</span>
+                        <span class="language-arrow">▼</span>
+                    </button>
+                    <div class="language-dropdown" id="languageDropdown">
+                        <button class="lang-option" data-lang="ca">Català</button>
+                        <button class="lang-option" data-lang="es">Español</button>
+                        <button class="lang-option" data-lang="fr">Français</button>
+                        <button class="lang-option" data-lang="en">English</button>
+                    </div>
+                </div>
+                <button class="newsletter-btn" onclick="toggleNewsletter()" data-i18n="newsletter.title">Butlletí</button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Newsletter Modal -->
+    <div id="newsletterModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="toggleNewsletter()">&times;</span>
+            <h3 data-i18n="newsletter.title">Butlletí Informatiu</h3>
+            <p data-i18n="newsletter.description">Subscriviu-vos al nostre butlletí per rebre les últimes notícies i anàlisis.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="El vostre email" required data-i18n-placeholder="newsletter.placeholder">
+                <button type="submit" data-i18n="newsletter.subscribe">Subscriure's</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Section Hero -->
+    <section id="inici" class="hero">
+        <div class="hero-content">
+            <h1 data-i18n="hero.title">Can Dogmatic</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Mitjà Digital Islàmic</p>
+            <p class="hero-description" data-i18n="hero.description">Notícies, opinions i anàlisis per a la comunitat musulmana global</p>
+            <div class="hero-buttons">
+                <button class="cta-button" onclick="scrollToSection('noticies')" data-i18n="hero.cta_primary">Llegeix les últimes notícies</button>
+                <button class="cta-button secondary" onclick="scrollToSection('sobre-nosaltres')" data-i18n="hero.cta_secondary">Descobreix més</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- Section Présentation -->
+    <section class="presentation">
+        <div class="container">
+            <div class="presentation-content">
+                <div class="presentation-icon">📰</div>
+                <p class="presentation-text" data-i18n="presentation.message">
+                    Som principalment un lloc web basat en notícies, opinions i anàlisis que se centra en els musulmans d'arreu del món i, en particular, en els països de parla espanyola, catalana i europea, però que també atén el món islàmic en general. Ens mantindrem independents i professionals, centrats en l'actualitat, el diàleg interreligiós i els dubtes moderns.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="sobre-nosaltres" class="about">
+        <div class="container">
+            <h2 data-i18n="about.title">La nostra Missió</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about.content[0]"><strong>Can Dogmatic</strong> neix amb la vocació de servir com a pont de comunicació i comprensió per a la comunitat musulmana contemporània.</p>
+                    <p data-i18n="about.content[1]">Creiem en el diàleg constructiu, l'anàlisi rigorosa i la informació verac com a eixos fonamentals per a una societat més inclusiva.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label" data-i18n="about.stats.articles">Articles publicats</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label" data-i18n="about.stats.readers">Lectors mensuals</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">80+</span>
+                            <span class="stat-label" data-i18n="about.stats.countries">Països assolits</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Équipe -->
+    <section id="equip" class="team">
+        <div class="container">
+            <h2 data-i18n="team.title">El nostre Equip</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo"></div>
+                    <h3 data-i18n="team.members[0].name">Ahmed Al-Mansour</h3>
+                    <p class="member-role" data-i18n="team.members[0].role">Director Editorial</p>
+                    <p class="member-bio" data-i18n="team.members[0].bio">Expert en estudis islàmics i periodisme digital amb més de 15 anys d'experiència.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo"></div>
+                    <h3 data-i18n="team.members[1].name">Fatima Benali</h3>
+                    <p class="member-role" data-i18n="team.members[1].role">Editora en Cap</p>
+                    <p class="member-bio" data-i18n="team.members[1].bio">Especialista en diàleg interreligiós i estudis de gènere en l'islam.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo"></div>
+                    <h3 data-i18n="team.members[2].name">Youssef Qureshi</h3>
+                    <p class="member-role" data-i18n="team.members[2].role">Analista Internacional</p>
+                    <p class="member-bio" data-i18n="team.members[2].bio">Analista especialitzat en afers del món islàmic i relacions internacionals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Valeurs -->
+    <section id="valors" class="values">
+        <div class="container">
+            <h2 data-i18n="values.title">Els nostres Principis</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <h3 data-i18n="values.items[0].title">🎯 Independència</h3>
+                    <p data-i18n="values.items[0].description">Mantenim la nostra independència editorial i integritat professional en totes les nostres publicacions.</p>
+                </div>
+                <div class="value-card">
+                    <h3 data-i18n="values.items[1].title">🤝 Diàleg</h3>
+                    <p data-i18n="values.items[1].description">Promovem el diàleg interreligiós i intercultural com a eina per a la comprensió mútua.</p>
+                </div>
+                <div class="value-card">
+                    <h3 data-i18n="values.items[2].title">⚡ Actualitat</h3>
+                    <p data-i18n="values.items[2].description">Ens centrem en les qüestions contemporànies i els desafiaments moderns que afecten la comunitat musulmana.</p>
+                </div>
+                <div class="value-card">
+                    <h3 data-i18n="values.items[3].title">🌐 Globalitat</h3>
+                    <p data-i18n="values.items[3].description">Cobrim les notícies i anàlisis des d'una perspectiva global, amb atenció especial als països de parla espanyola i catalana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Donation -->
+    <section id="donar" class="donation">
+        <div class="container">
+            <div class="donation-header">
+                <h2 data-i18n="donation.title">Necessitem el teu suport</h2>
+                <p class="donation-subtitle" data-i18n="donation.subtitle">Confiem en Allah i després en persones com tu</p>
+                <p class="donation-description" data-i18n="donation.description">Suporta'ns amb el que puguis</p>
+            </div>
+            
+            <div class="donation-content">
+                <div class="donation-form-container">
+                    <form class="donation-form" id="donationForm">
+                        <!-- Nom complet -->
+                        <div class="form-group">
+                            <label for="fullName" data-i18n="donation.form.full_name">Nom complet*</label>
+                            <input type="text" id="fullName" name="fullName" required 
+                                   data-i18n-placeholder="donation.form.first_last" placeholder="Nom Cognoms">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group">
+                            <label for="email" data-i18n="donation.form.email">Email*</label>
+                            <input type="email" id="email" name="email" required 
+                                   data-i18n-placeholder="donation.form.enter_email" placeholder="Introdueix el teu email">
+                        </div>
+
+                        <!-- Confirmation Email -->
+                        <div class="form-group">
+                            <label for="confirmEmail" data-i18n="donation.form.confirm_email">Confirma l'email*</label>
+                            <input type="email" id="confirmEmail" name="confirmEmail" required 
+                                   data-i18n-placeholder="donation.form.enter_email" placeholder="Introdueix el teu email">
+                        </div>
+
+                        <!-- Genre -->
+                        <div class="form-group">
+                            <label data-i18n="donation.form.gender">Gènere*</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="gender" value="male" required>
+                                    <span class="radio-custom"></span>
+                                    <span data-i18n="donation.form.male">Home</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="gender" value="female" required>
+                                    <span class="radio-custom"></span>
+                                    <span data-i18n="donation.form.female">Dona</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Liste de diffusion -->
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="mailingList">
+                                <span class="checkbox-custom"></span>
+                                <span data-i18n="donation.form.mailing_list">Afegeix-me a la llista de correu</span>
+                            </label>
+                        </div>
+
+                        <!-- Montant du don -->
+                        <div class="form-group">
+                            <label for="donationAmount" data-i18n="donation.form.donation_amount">Quantitat de la donació*</label>
+                            <div class="amount-input">
+                                <span class="currency">€</span>
+                                <input type="number" id="donationAmount" name="donationAmount" min="1" step="0.01" required 
+                                       data-i18n-placeholder="donation.form.amount_placeholder" placeholder="Si us plau, introdueix la quantitat que desitges donar">
+                            </div>
+                        </div>
+
+                        <!-- Frais de traitement -->
+                        <div class="form-group">
+                            <label data-i18n="donation.form.processing_fee">Vols cobrir la comissió de processament?*</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="processingFee" value="yes" required>
+                                    <span class="radio-custom"></span>
+                                    <span data-i18n="donation.form.yes">Sí</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="processingFee" value="no" required>
+                                    <span class="radio-custom"></span>
+                                    <span data-i18n="donation.form.no">No</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Méthode de paiement -->
+                        <div class="form-group">
+                            <label data-i18n="donation.form.payment_method">Mètode de pagament*</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="paymentMethod" value="stripe" required>
+                                    <span class="radio-custom"></span>
+                                    <span data-i18n="donation.form.stripe">Stripe (Targeta de crèdit)</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="paymentMethod" value="paypal" required>
+                                    <span class="radio-custom"></span>
+                                    <span data-i18n="donation.form.paypal">PayPal</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group">
+                            <label for="message" data-i18n="donation.form.message">Missatge per a l'equip de Can Dogmatic</label>
+                            <textarea id="message" name="message" maxlength="300" 
+                                      data-i18n-placeholder="donation.form.message_placeholder" placeholder="0 de 300 caràcters màxim"></textarea>
+                            <div class="char-counter">
+                                <span id="charCount">0</span>/300
+                            </div>
+                        </div>
+
+                        <!-- Consentement -->
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="consent" required>
+                                <span class="checkbox-custom"></span>
+                                <span data-i18n="donation.form.privacy_agree">He llegit i accepto la Política de Privadesa i els Termes d'Ús.*</span>
+                            </label>
+                        </div>
+
+                        <!-- Note de confidentialité -->
+                        <div class="privacy-note">
+                            <p data-i18n="donation.form.privacy_note">
+                                Respectem la teva privadesa i ens comprometem a tractar les teves dades personals amb el màxim cura i integritat. Si decideixes augmentar, canviar o cancel·lar una donació mensual recurrent, si us plau envia'ns un email a admin[at]candogmatic.com. Permet-nos uns dies per respondre. Gràcies!
+                            </p>
+                        </div>
+
+                        <!-- Bouton de soumission -->
+                        <button type="submit" class="donation-submit-btn" data-i18n="donation.button">
+                            Fer la donació
+                        </button>
+                    </form>
+                </div>
+
+                <div class="donation-info">
+                    <div class="info-card">
+                        <div class="info-icon">🤲</div>
+                        <h3 data-i18n="donation.info.impact_title">El teu suport fa la diferència</h3>
+                        <p data-i18n="donation.info.impact_text">Cada donació ens ajuda a mantenir la nostra independència editorial i a produir contingut de qualitat per a la comunitat musulmana.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">📰</div>
+                        <h3 data-i18n="donation.info.transparency_title">Transparència total</h3>
+                        <p data-i18n="donation.info.transparency_text">Ens comprometem a utilitzar els fons de manera responsable i a informar regularment sobre la nostra gestió.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">🕌</div>
+                        <h3 data-i18n="donation.info.community_title">Per a la comunitat</h3>
+                        <p data-i18n="donation.info.community_text">El teu suport contribueix a fortalecer les veus musulmanes i promoure el diàleg interreligiós.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contacte" class="contact">
+        <div class="container">
+            <h2 data-i18n="contact.title">Contacteu-nos</h2>
+            <p class="section-subtitle" data-i18n="contact.subtitle">Teniu alguna notícia o voleu col·laborar? Escriviu-nos!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-i18n="contact.info.title">Informació de contacte</h3>
+                    <div class="contact-item">
+                        <strong data-i18n="contact.info.email">📧 Email:</strong>
+                        <span>redaccio@candogmatic.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong data-i18n="contact.info.phone">📞 Telèfon:</strong>
+                        <span>+34 93 123 45 67</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong data-i18n="contact.info.address">📍 Adreça:</strong>
+                        <span>123 Avinguda Digital, 08001 Barcelona, Catalunya</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" name="name" data-i18n-placeholder="contact.form.name" placeholder="El vostre nom" required>
+                    <input type="email" name="email" data-i18n-placeholder="contact.form.email" placeholder="El vostre correu electrònic" required>
+                    <input type="text" name="subject" data-i18n-placeholder="contact.form.subject" placeholder="Assumpte" required>
+                    <textarea name="message" data-i18n-placeholder="contact.form.message" placeholder="El vostre missatge..." rows="5" required></textarea>
+                    <button type="submit" class="submit-button" data-i18n="contact.form.submit">Enviar missatge</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Can Dogmatic</h3>
+                    <p data-i18n="footer.description">Mitjà digital independent per a la comunitat musulmana global</p>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.navigation">Navegació</h4>
+                    <a href="#inici" data-i18n="nav.home">Inici</a>
+                    <a href="#noticies" data-i18n="nav.blog">Notícies</a>
+                    <a href="#contacte" data-i18n="nav.contact">Contacte</a>
+                    <a href="#comunitat" data-i18n="nav.forum">Comunitat</a>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.legal">Legal</h4>
+                    <a href="#avis-legal" data-i18n="footer.legal_mentions">Avís legal</a>
+                    <a href="#politica-privacitat" data-i18n="footer.privacy_policy">Política de privacitat</a>
+                    <a href="#politica-cookies" data-i18n="footer.cookie_policy">Política de cookies</a>
+                    <a href="#termes" data-i18n="footer.terms">Termes i condicions</a>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="newsletter.title">Butlletí</h4>
+                    <p data-i18n="newsletter.footer">Resteu informat de les nostres actualitats</p>
+                    <button class="footer-newsletter-btn" onclick="toggleNewsletter()" data-i18n="newsletter.subscribe">Subscriure's</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <strong>www.CanDogmatic.com</strong>. <span data-i18n="footer.rights">Tots els drets reservats</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Warning Banner -->
+    <div class="warning-banner">
+        <div class="container">
+            <div class="warning-content">
+                <div class="warning-icon">⚠️</div>
+                <p class="warning-text" data-i18n="warning.message">
+                    Tots els nostres afiliats s'oposen a la violència i a qualsevol activitat il·legal. Qualsevol persona que suggereixi o promogui la violència o activitats il·legals als comentaris serà expulsada permanentment.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
