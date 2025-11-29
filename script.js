@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 gender: formData.get('gender'),
                 mailingList: formData.get('mailingList') === 'on',
                 donationAmount: amount,
-                processingFee: formData.get('processingFee'),
+                
                 paymentMethod: formData.get('paymentMethod'),
                 message: formData.get('message'),
                 consent: formData.get('consent') === 'on'
