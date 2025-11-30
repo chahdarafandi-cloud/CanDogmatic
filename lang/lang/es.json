@@ -175,3 +175,23 @@
     "rights": "Todos los derechos reservados"
   }
 }
+"scholars": {
+    "title": "Los Primeros Eruditos Musulmanes",
+    "subtitle": "Pioneros del conocimiento en la civilización islámica",
+    "intro": "Conoce a los primeros eruditos que sentaron las bases de las ciencias islámicas y compusieron las primeras obras en diversos campos.",
+    "works": "Obras",
+    "filter": {
+        "all": "Todas las Especialidades",
+        "hadith": "Hadiz",
+        "tafsir": "Exégesis",
+        "fiqh": "Jurisprudencia",
+        "language": "Lengua",
+        "history": "Historia",
+        "aqeedah": "Creencia"
+    },
+    "stats": {
+        "scholars": "Eruditos",
+        "books": "Obras",
+        "fields": "Campos"
+    }
+}
