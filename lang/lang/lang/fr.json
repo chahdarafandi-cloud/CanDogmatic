@@ -175,3 +175,23 @@
     "rights": "Tous droits réservés"
   }
 }
+"scholars": {
+    "title": "Les Premiers Savants Musulmans",
+    "subtitle": "Pionniers du savoir dans la civilisation islamique",
+    "intro": "Découvrez les premiers savants qui ont jeté les bases des sciences islamiques et composé les premiers ouvrages dans divers domaines.",
+    "works": "Œuvres",
+    "filter": {
+        "all": "Toutes les Spécialités",
+        "hadith": "Hadith",
+        "tafsir": "Exégèse",
+        "fiqh": "Jurisprudence",
+        "language": "Langue",
+        "history": "Histoire",
+        "aqeedah": "Croyance"
+    },
+    "stats": {
+        "scholars": "Savants",
+        "books": "Ouvrages",
+        "fields": "Domaines"
+    }
+}
