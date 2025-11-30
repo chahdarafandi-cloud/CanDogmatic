@@ -450,3 +450,43 @@ document.addEventListener('DOMContentLoaded', function() {
         initializeCookies();
     }
 });
+// Gestion des filtres des savants
+document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const scholarCards = document.querySelectorAll('.scholar-card');
+    
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // Retirer la classe active de tous les boutons
+            filterBtns.forEach(b => b.classList.remove('active'));
+            // Ajouter la classe active au bouton cliqué
+            this.classList.add('active');
+            
+            const category = this.getAttribute('data-category');
+            
+            // Filtrer les savants
+            scholarCards.forEach(card => {
+                if (category === 'all') {
+                    card.style.display = 'block';
+                } else {
+                    const cardCategory = card.getAttribute('data-category');
+                    if (cardCategory === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                }
+            });
+        });
+    });
+    
+    // Pagination simple
+    const paginationBtns = document.querySelectorAll('.pagination-btn');
+    paginationBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            paginationBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            // Ici vous pouvez ajouter la logique pour charger plus de savants
+        });
+    });
+});
