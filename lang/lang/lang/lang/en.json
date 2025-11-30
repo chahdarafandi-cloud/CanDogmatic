@@ -175,3 +175,23 @@
     "rights": "All rights reserved"
   }
 }
+"scholars": {
+    "title": "The First Muslim Scholars",
+    "subtitle": "Pioneers of Knowledge in Islamic Civilization",
+    "intro": "Discover the first scholars who laid the foundations of Islamic sciences and authored the first works in various fields.",
+    "works": "Works",
+    "filter": {
+        "all": "All Specialties",
+        "hadith": "Hadith",
+        "tafsir": "Exegesis",
+        "fiqh": "Jurisprudence",
+        "language": "Language",
+        "history": "History",
+        "aqeedah": "Creed"
+    },
+    "stats": {
+        "scholars": "Scholars",
+        "books": "Works",
+        "fields": "Fields"
+    }
+}
