@@ -5,7 +5,7 @@
     "keywords": "islam, musulmans, notícies islàmiques, diàleg interreligiós, anàlisi, opinió, comunitat musulmana"
   },
   "presentation": {
-    "message": "Som principalment un lloc web basat en notícies, opinions i anàlisis que se centra en els musulmans d'arreu del món i, en particular, en els països de parla espanyola, catalana i europea, però que també atén el món islàmic en general. Ens mantindrem independents i professionals, centrats en l'actualitat, el diàleg interreligiós i els dubtes moderns."
+    "message": "Som principalment un lloc web basat en notícies, opinions i anàlisis que se centra en els musulmans d'arreu del món i, en particulier, en els països de parla espanyola, catalana i europea, però que també atén el món islàmic en general. Ens mantindrem independents i professionals, centrats en l'actualitat, el diàleg interreligiós i els dubtes moderns."
   },
   "warning": {
     "message": "Tots els nostres afiliats s'oposen a la violència i a qualsevol activitat il·legal. Qualsevol persona que suggereixi o promogui la violència o activitats il·legals als comentaris serà expulsada permanentment."
@@ -88,6 +88,26 @@
       }
     ]
   },
+  "scholars": {
+    "title": "الأوائل من علماء المسلمين",
+    "subtitle": "رواد العلم والمعرفة في الحضارة الإسلامية",
+    "intro": "تعرف على العلماء الأوائل الذين وضعوا أساسات العلوم الإسلامية وألفوا أول المصنفات في مختلف المجالات.",
+    "works": "المؤلفات",
+    "filter": {
+      "all": "جميع التخصصات",
+      "hadith": "الحديث",
+      "tafsir": "التفسير",
+      "fiqh": "الفقه",
+      "language": "اللغة",
+      "history": "التاريخ",
+      "aqeedah": "العقيدة"
+    },
+    "stats": {
+      "scholars": "عالم",
+      "books": "مؤلف",
+      "fields": "تخصص علمي"
+    }
+  },
   "donation": {
     "title": "Necessitem el teu suport",
     "subtitle": "Confiem en Allah i després en persones com tu",
@@ -97,22 +117,18 @@
       "first_last": "Nom Cognoms",
       "email": "Email*",
       "enter_email": "Introdueix el teu email",
-      "confirm_email": "Confirma l'email",
+      "confirm_email": "Confirma l'email*",
       "gender": "Gènere*",
       "male": "Home",
       "female": "Dona",
       "mailing_list": "Afegeix-me a la llista de correu",
       "donation_amount": "Quantitat de la donació*",
       "amount_placeholder": "Si us plau, introdueix la quantitat que desitges donar",
-      "processing_fee": "Vols cobrir la comissió de processament?*",
-      "yes": "Sí",
-      "no": "No",
       "payment_method": "Mètode de pagament*",
       "stripe": "Stripe (Targeta de crèdit)",
       "paypal": "PayPal",
       "message": "Missatge per a l'equip de Can Dogmatic",
       "message_placeholder": "0 de 300 caràcters màxim",
-      "consent": "Consentiment*",
       "privacy_agree": "He llegit i accepto la Política de Privadesa i els Termes d'Ús.*",
       "privacy_note": "Respectem la teva privadesa i ens comprometem a tractar les teves dades personals amb el màxim cura i integritat. Si decideixes augmentar, canviar o cancel·lar una donació mensual recurrent, si us plau envia'ns un email a admin[at]candogmatic.com. Permet-nos uns dies per respondre. Gràcies!"
     },
@@ -174,24 +190,4 @@
     "terms": "Termes i condicions",
     "rights": "Tots els drets reservats"
   }
-}
-"scholars": {
-    "title": "الأوائل من علماء المسلمين",
-    "subtitle": "رواد العلم والمعرفة في الحضارة الإسلامية",
-    "intro": "تعرف على العلماء الأوائل الذين وضعوا أساسات العلوم الإسلامية وألفوا أول المصنفات في مختلف المجالات.",
-    "works": "المؤلفات",
-    "filter": {
-        "all": "جميع التخصصات",
-        "hadith": "الحديث",
-        "tafsir": "التفسير",
-        "fiqh": "الفقه",
-        "language": "اللغة",
-        "history": "التاريخ",
-        "aqeedah": "العقيدة"
-    },
-    "stats": {
-        "scholars": "عالم",
-        "books": "مؤلف",
-        "fields": "تخصص علمي"
-    }
 }
