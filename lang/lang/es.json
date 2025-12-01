@@ -88,6 +88,26 @@
       }
     ]
   },
+  "scholars": {
+    "title": "الأوائل من علماء المسلمين",
+    "subtitle": "Los Primeros Eruditos Musulmanes",
+    "intro": "Conoce a los primeros eruditos que sentaron las bases de las ciencias islámicas y compusieron las primeras obras en diversos campos.",
+    "works": "Obras",
+    "filter": {
+      "all": "Todas las Especialidades",
+      "hadith": "Hadiz",
+      "tafsir": "Exégesis",
+      "fiqh": "Jurisprudencia",
+      "language": "Lengua",
+      "history": "Historia",
+      "aqeedah": "Creencia"
+    },
+    "stats": {
+      "scholars": "Eruditos",
+      "books": "Obras",
+      "fields": "Campos"
+    }
+  },
   "donation": {
     "title": "Necesitamos tu apoyo",
     "subtitle": "Confiamos en Allah y luego en personas como tú",
@@ -97,22 +117,18 @@
       "first_last": "Nombre Apellidos",
       "email": "Email*",
       "enter_email": "Introduce tu email",
-      "confirm_email": "Confirma el email",
+      "confirm_email": "Confirma el email*",
       "gender": "Género*",
       "male": "Hombre",
       "female": "Mujer",
       "mailing_list": "Añádeme a la lista de correo",
       "donation_amount": "Cantidad de la donación*",
       "amount_placeholder": "Por favor, introduce la cantidad que deseas donar",
-      "processing_fee": "¿Quieres cubrir la comisión de procesamiento?*",
-      "yes": "Sí",
-      "no": "No",
       "payment_method": "Método de pago*",
       "stripe": "Stripe (Tarjeta de crédito)",
       "paypal": "PayPal",
       "message": "Mensaje para el equipo de Can Dogmatic",
       "message_placeholder": "0 de 300 caracteres máximo",
-      "consent": "Consentimiento*",
       "privacy_agree": "He leído y acepto la Política de Privacidad y los Términos de Uso.*",
       "privacy_note": "Respetamos tu privacidad y nos comprometemos a tratar tus datos personales con el máximo cuidado e integridad. Si decides aumentar, cambiar o cancelar una donación mensual recurrente, por favor envíanos un email a admin[at]candogmatic.com. Permítenos unos días para responder. ¡Gracias!"
     },
@@ -128,7 +144,7 @@
       "transparency_title": "Transparencia total",
       "transparency_text": "Nos comprometemos a utilizar los fondos de manera responsable y a informar regularmente sobre nuestra gestión.",
       "community_title": "Para la comunidad",
-      "community_text": "Tu apoyo contribuye a fortalecer las voces musulmanas y promover el diálogo interreligioso."
+      "community_text": "Tu apoyo contribuye a fortalecer las voces musulmanes y promover el diálogo interreligioso."
     }
   },
   "newsletter": {
@@ -174,24 +190,4 @@
     "terms": "Términos y condiciones",
     "rights": "Todos los derechos reservados"
   }
-}
-"scholars": {
-    "title": "Los Primeros Eruditos Musulmanes",
-    "subtitle": "Pioneros del conocimiento en la civilización islámica",
-    "intro": "Conoce a los primeros eruditos que sentaron las bases de las ciencias islámicas y compusieron las primeras obras en diversos campos.",
-    "works": "Obras",
-    "filter": {
-        "all": "Todas las Especialidades",
-        "hadith": "Hadiz",
-        "tafsir": "Exégesis",
-        "fiqh": "Jurisprudencia",
-        "language": "Lengua",
-        "history": "Historia",
-        "aqeedah": "Creencia"
-    },
-    "stats": {
-        "scholars": "Eruditos",
-        "books": "Obras",
-        "fields": "Campos"
-    }
 }
