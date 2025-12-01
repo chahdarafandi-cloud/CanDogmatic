@@ -38,8 +38,8 @@
   "about": {
     "title": "Our Mission",
     "content": [
-      "Can Dogmatic was founded in 2020 with a simple vision: to make digital excellence accessible to all businesses.",
-      "Our journey began with a small team of passionate people and has grown to become a reference in the field of innovative digital solutions."
+      "Can Dogmatic was born with the vocation to serve as a communication and understanding bridge for the contemporary Muslim community.",
+      "We believe in constructive dialogue, rigorous analysis and truthful information as fundamental axes for a more inclusive society."
     ],
     "stats": {
       "articles": "Articles published",
@@ -88,31 +88,47 @@
       }
     ]
   },
+  "scholars": {
+    "title": "الأوائل من علماء المسلمين",
+    "subtitle": "The First Muslim Scholars",
+    "intro": "Discover the first scholars who laid the foundations of Islamic sciences and authored the first works in various fields.",
+    "works": "Works",
+    "filter": {
+      "all": "All Specialties",
+      "hadith": "Hadith",
+      "tafsir": "Exegesis",
+      "fiqh": "Jurisprudence",
+      "language": "Language",
+      "history": "History",
+      "aqeedah": "Creed"
+    },
+    "stats": {
+      "scholars": "Scholars",
+      "books": "Works",
+      "fields": "Fields"
+    }
+  },
   "donation": {
-    "title": "Needs your support",
-    "subtitle": "We rely on Allah and then individuals like you",
+    "title": "We need your support",
+    "subtitle": "We rely on Allah and then on individuals like you",
     "description": "Support us with as little as you can",
     "form": {
       "full_name": "Full Name*",
       "first_last": "First Last",
       "email": "Email*",
-      "enter_email": "Enter Email",
-      "confirm_email": "Confirm Email",
+      "enter_email": "Enter your email",
+      "confirm_email": "Confirm email*",
       "gender": "Gender*",
       "male": "Male",
       "female": "Female",
       "mailing_list": "Add me to mailing list",
       "donation_amount": "Donation Amount*",
-      "amount_placeholder": "Please enter your desired gift amount",
-      "processing_fee": "Do you want to cover the processing fee?*",
-      "yes": "Yes",
-      "no": "No",
+      "amount_placeholder": "Please enter the amount you wish to donate",
       "payment_method": "Payment Method*",
       "stripe": "Stripe (Credit Card)",
       "paypal": "PayPal",
       "message": "Message to Can Dogmatic Team",
       "message_placeholder": "0 of 300 max characters",
-      "consent": "Consent*",
       "privacy_agree": "I have read and agree to the Privacy Policy and Terms of Use.*",
       "privacy_note": "We respect your privacy and vow to treat your personal details with utmost care and integrity. If you decide to increase, change, or cancel a recurring monthly donation, please email us at admin[at]candogmatic.com. Please allow us a few days to respond. Thank you!"
     },
@@ -174,24 +190,4 @@
     "terms": "Terms and conditions",
     "rights": "All rights reserved"
   }
-}
-"scholars": {
-    "title": "The First Muslim Scholars",
-    "subtitle": "Pioneers of Knowledge in Islamic Civilization",
-    "intro": "Discover the first scholars who laid the foundations of Islamic sciences and authored the first works in various fields.",
-    "works": "Works",
-    "filter": {
-        "all": "All Specialties",
-        "hadith": "Hadith",
-        "tafsir": "Exegesis",
-        "fiqh": "Jurisprudence",
-        "language": "Language",
-        "history": "History",
-        "aqeedah": "Creed"
-    },
-    "stats": {
-        "scholars": "Scholars",
-        "books": "Works",
-        "fields": "Fields"
-    }
 }
