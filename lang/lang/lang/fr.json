@@ -88,6 +88,26 @@
       }
     ]
   },
+  "scholars": {
+    "title": "الأوائل من علماء المسلمين",
+    "subtitle": "Les Premiers Savants Musulmans",
+    "intro": "Découvrez les premiers savants qui ont jeté les bases des sciences islamiques et composé les premiers ouvrages dans divers domaines.",
+    "works": "Œuvres",
+    "filter": {
+      "all": "Toutes les Spécialités",
+      "hadith": "Hadith",
+      "tafsir": "Exégèse",
+      "fiqh": "Jurisprudence",
+      "language": "Langue",
+      "history": "Histoire",
+      "aqeedah": "Croyance"
+    },
+    "stats": {
+      "scholars": "Savants",
+      "books": "Ouvrages",
+      "fields": "Domaines"
+    }
+  },
   "donation": {
     "title": "Nous avons besoin de votre soutien",
     "subtitle": "Nous comptons sur Allah puis sur des personnes comme vous",
@@ -97,22 +117,18 @@
       "first_last": "Prénom Nom",
       "email": "Email*",
       "enter_email": "Entrez votre email",
-      "confirm_email": "Confirmez l'email",
+      "confirm_email": "Confirmez l'email*",
       "gender": "Genre*",
       "male": "Homme",
       "female": "Femme",
       "mailing_list": "Ajoutez-moi à la liste de diffusion",
       "donation_amount": "Montant du don*",
       "amount_placeholder": "Veuillez entrer le montant que vous souhaitez donner",
-      "processing_fee": "Voulez-vous couvrir les frais de traitement?*",
-      "yes": "Oui",
-      "no": "Non",
       "payment_method": "Méthode de paiement*",
       "stripe": "Stripe (Carte de crédit)",
       "paypal": "PayPal",
       "message": "Message pour l'équipe de Can Dogmatic",
       "message_placeholder": "0 sur 300 caractères maximum",
-      "consent": "Consentement*",
       "privacy_agree": "J'ai lu et j'accepte la Politique de Confidentialité et les Conditions d'Utilisation.*",
       "privacy_note": "Nous respectons votre vie privée et nous nous engageons à traiter vos données personnelles avec le plus grand soin et intégrité. Si vous décidez d'augmenter, de modifier ou d'annuler un don mensuel récurrent, veuillez nous envoyer un email à admin[at]candogmatic.com. Veuillez nous accorder quelques jours pour répondre. Merci!"
     },
@@ -169,29 +185,9 @@
     "navigation": "Navigation",
     "legal": "Légal",
     "legal_mentions": "Mentions légales",
-    "privacy_policy": "Política de confidentialité",
+    "privacy_policy": "Politique de confidentialité",
     "cookie_policy": "Politique de cookies",
     "terms": "Conditions d'utilisation",
     "rights": "Tous droits réservés"
   }
-}
-"scholars": {
-    "title": "Les Premiers Savants Musulmans",
-    "subtitle": "Pionniers du savoir dans la civilisation islamique",
-    "intro": "Découvrez les premiers savants qui ont jeté les bases des sciences islamiques et composé les premiers ouvrages dans divers domaines.",
-    "works": "Œuvres",
-    "filter": {
-        "all": "Toutes les Spécialités",
-        "hadith": "Hadith",
-        "tafsir": "Exégèse",
-        "fiqh": "Jurisprudence",
-        "language": "Langue",
-        "history": "Histoire",
-        "aqeedah": "Croyance"
-    },
-    "stats": {
-        "scholars": "Savants",
-        "books": "Ouvrages",
-        "fields": "Domaines"
-    }
 }
